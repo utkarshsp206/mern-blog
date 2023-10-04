@@ -6,6 +6,7 @@ import ArticleList from "./pages/ArticleList";
 import Article from "./pages/Article";
 import Navbar from "./components/Navbar";
 import NotFound from "./pages/NotFound";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="*" element={<NotFound/>} /> 
         </Routes>
       </div>
+      <Footer/>
     </Router>
     
   );

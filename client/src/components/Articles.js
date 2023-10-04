@@ -25,7 +25,7 @@ const Articles = ({ articles }) => {
                             </p>
                             <div className='flex item-center flex-wrap'>
                                 <Link
-                                    className='text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0'
+                                    className='text-indigo-500 inline-flex items-center rounded-lg py-1 px-1 md:mb-2 lg:mb-0 hover:bg-blue-100 hover:text-black'
                                     to={`/article/${article.name}`}
                                 >
                                     Learn more
